@@ -58,4 +58,16 @@ def Ej2():
 Ej1()
 
 Ej2()
-
+# create table venta
+# (
+#     fecha          date   default SYSDATE not null,
+#     id_serv        number                 not null,
+#     "DNI_empleado" number,
+#     "Cantidad"     number default 1       not null,
+#     concepto       varchar(45),
+#     constraint venta_pk
+#         primary key ("DNI_empleado", id_serv, fecha),
+#     constraint check_name
+#         check (1 <= Cantidad)
+# )
+# /
